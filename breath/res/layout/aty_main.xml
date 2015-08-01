@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg" >
+
+    <RadioGroup
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottom_bar_normal_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+
+            <RadioButton
+                android:id="@+id/home"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:background="@drawable/main_btn_home_bg"
+                android:button="@null"
+                android:gravity="center"
+                android:onClick="onTabClicked" />
+
+
+            <RadioButton
+                android:id="@+id/record"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/main_btn_record_bg"
+                android:button="@null"
+                android:onClick="onTabClicked"
+                android:scaleType="matrix" />
+
+
+            <RadioButton
+                android:id="@+id/personal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/main_btn_personal_bg"
+                android:button="@null"
+                android:onClick="onTabClicked"
+                android:scaleType="matrix" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/main_bottom"
+        android:background="#FFB2B2B2" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_bottom"
+        android:layout_marginBottom="1dp" />
+
+</RelativeLayout>

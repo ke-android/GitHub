@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_back">#ededed</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="orange">#fba248</color>
+    <color name="line">#e2e2e2</color>
+    <color name="gray">#cccccc</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_6">#666666</color>
+    <color name="list_select">#dbd9f3</color>
+    <color name="black">#3f3f3f</color>
+    <color name="search_text_color">#f1c395</color>
+    <color name="trans_black">#AA000000</color>
+    <color name="bg_input_more">#595552</color>
+    <color name="query_results_title">#CECECE</color>
+    <color name="red">#FF0000</color>
+    <color name="be">#BEBEBE</color>
+    <color name="bg_loading">#90000000</color>
+    <color name="white">#ffffff</color>
+    <color name="go_back_p">#F5D2BA</color>
+    <color name="orange_white">#ffe4b4</color>
+    <color name="translucent_background">#60000000</color>
+    <color name="but_gray">#7C7C7C</color>
+    <color name="msg_title">#101010</color>
+    <color name="msg_content">#636262</color>
+    <color name="xiala_gray">#6E6E6E</color>
+    <color name="username">#282828</color>
+    <color name="nav_title_default_color">#01D9AE</color>
+    <color name="nav_title_selected_color">#000000</color>
+    <color name="title_bg">#f2f0eb</color>
+    <color name="setting_bg">#F4F4F4</color>
+    <color name="setting_bg_first">#ededed</color>
+    <color name="setting_bg_second">#E6E6E6</color>
+
+    <!-- more fragment -->
+    <color name="more_text_color">#020202</color>
+    <color name="more_listitem_background_color">#fdfdfc</color>
+    <color name="more_listitem_pressed_background_color">#99fdfdfc</color>
+    <color name="more_white">#ffffff</color>
+    <color name="more_feedback_textcolor">#000000</color>
+    <color name="orange_base">#f46200</color>
+    <color name="light_gray">#e3e3e3</color>
+    <color name="ibreath_red">#FF8995</color>
+    <color name="ibreath_green">#22D3BA</color>
+    <color name="ibreath_blue">#2479FC</color>
+    <color name="ibreath_normal">#50E3C2</color>
+    <color name="ibreath_warn">#FED263</color>
+    <color name="ibreath_risk">#FE6373</color>
+    <color name="ibreath_text_black">#626258</color>
+
+</resources>
