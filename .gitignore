@@ -41,6 +41,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+<<<<<<< HEAD
 breath/.classpath
 breath/.project
 breath/bin/AndroidManifest.xml
@@ -53,3 +54,17 @@ breath/hs_err_pid6032.log
 breath/hs_err_pid6880.log
 breath/hs_err_pid7144.log
 breath/hs_err_pid7376.log
+=======
+
+#iBreath
+/breath/.settings/*
+/breath/bin/*
+/breath/gen/*
+breath/hs_err_pid3820.log
+breath/.project
+breath/.classpath
+breath/hs_err_pid7144.log
+breath/hs_err_pid6032.log
+breath/hs_err_pid7376.log
+breath/hs_err_pid6880.log
+>>>>>>> parent of 55f80b3... Revert "ibreath"
