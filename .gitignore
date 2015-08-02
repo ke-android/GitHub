@@ -41,3 +41,15 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+breath/.classpath
+breath/.project
+breath/bin/AndroidManifest.xml
+breath/bin/*
+breath/.settings/*
+breath/gen/*
+*.class
+breath/hs_err_pid3820.log
+breath/hs_err_pid6032.log
+breath/hs_err_pid6880.log
+breath/hs_err_pid7144.log
+breath/hs_err_pid7376.log
